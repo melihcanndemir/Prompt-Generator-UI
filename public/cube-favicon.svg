@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="512" height="512">
+  <path d="M12,2L3,7v10l9,5l9-5V7L12,2z" fill="#4F7DFF" stroke="#4F7DFF" stroke-width="0.5"/>
+  <!-- Front face - lighter shade -->
+  <path d="M12,12v10l9-5V7L12,12z" fill="#4F7DFF" stroke="#4F7DFF" stroke-width="0.5" opacity="0.8"/>
+  <!-- Top face - darker shade -->
+  <path d="M3,7l9,5l9-5l-9-5L3,7z" fill="#4F7DFF" stroke="#4F7DFF" stroke-width="0.5" opacity="0.9"/>
+  <!-- Additional details for 3D effect -->
+  <path d="M12,12v10l-9-5V7L12,12z" fill="#4F7DFF" stroke="#4F7DFF" stroke-width="0.5" opacity="0.6"/>
+</svg> 

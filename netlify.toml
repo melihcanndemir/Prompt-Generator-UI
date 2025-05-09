@@ -46,4 +46,4 @@
 
 # Set Node.js version
 [build.environment]
-  NODE_VERSION = "18" 
+  NODE_VERSION = "18"
