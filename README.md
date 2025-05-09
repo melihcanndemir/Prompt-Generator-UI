@@ -1,4 +1,4 @@
-# Professional Prompt Generator
+# Professional Prompt Generator UI
 
 A FAANG-level web application for generating high-quality, professional prompts for development projects. Built with React, Vite, TypeScript, and Tailwind CSS.
 
@@ -8,16 +8,20 @@ A FAANG-level web application for generating high-quality, professional prompts 
 - Select from a variety of frameworks, UI libraries, state management solutions, and more
 - Create CI/CD workflow prompts tailored to your project
 - Real-time prompt generation with copy-to-clipboard functionality
+- Save and manage prompt templates for reuse
+- Export prompts in various formats (text, markdown, JSON)
+- Share prompts via URL
 - Fully responsive design with dark mode support
 - Type-safe implementation with TypeScript
 
 ## Tech Stack
 
-- **Framework**: React 18 with TypeScript
+- **Framework**: React 19 with TypeScript
 - **Build Tool**: Vite
 - **Styling**: Tailwind CSS
 - **State Management**: Zustand
 - **Storage**: Local browser persistence
+- **Deployment**: Netlify
 
 ## Getting Started
 
@@ -29,8 +33,8 @@ A FAANG-level web application for generating high-quality, professional prompts 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/prompt-generator.git
-cd prompt-generator
+git clone https://github.com/melihcanndemir/Prompt-Generator-UI.git
+cd Prompt-Generator-UI
 ```
 
 2. Install dependencies:
@@ -45,7 +49,7 @@ npm run dev
 
 4. Open your browser and navigate to:
 ```
-http://localhost:3000
+http://localhost:5173
 ```
 
 ## Usage
@@ -63,6 +67,15 @@ http://localhost:3000
 3. Toggle additional features like TypeScript, PWA support, i18n, etc.
 4. Click "Generate Project Prompt" or "Generate CI/CD Prompt"
 5. Copy the generated prompt to use with AI assistants or developer documentation
+6. Save prompts as templates for future use
+7. Share prompts with others via the export or share functionality
+
+## Template Management
+
+- Save current configurations as reusable templates
+- Load templates to quickly populate form fields
+- Edit and delete templates
+- Import/export templates as JSON
 
 ## Build for Production
 
@@ -71,6 +84,15 @@ npm run build
 ```
 
 The output will be in the `dist` directory.
+
+## Deployment
+
+This project is configured for deployment to Netlify:
+
+```bash
+npm run deploy       # Deploy to Netlify (preview)
+npm run deploy:prod  # Deploy to Netlify (production)
+```
 
 ## Contributing
 
@@ -93,4 +115,4 @@ This project is licensed under the MIT License.
 
 ---
 
-Built with ❤️ by [Your Name]
+Built with ❤️ by [Melih Can Demir](https://github.com/melihcanndemir)
