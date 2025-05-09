@@ -5,8 +5,8 @@
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
         
   <url>
-    <loc>https://promptgen-ui.netlify.app/</loc>
-    <lastmod>2025-05-09</lastmod>
+    <loc>https://prompt-gen-ui.netlify.app/</loc>
+    <lastmod>2024-12-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>

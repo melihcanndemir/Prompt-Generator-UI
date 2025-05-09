@@ -1,5 +1,5 @@
 # PromptGen UI Robots.txt
-# https://promptgen-ui.netlify.app/
+# https://prompt-gen-ui.netlify.app/
 
 # Allow all crawlers
 User-agent: *
@@ -24,7 +24,7 @@ Allow: /
 Crawl-delay: 1
 
 # Sitemap location - Update with your actual domain
-Sitemap: https://promptgen-ui.netlify.app/sitemap.xml
+Sitemap: https://prompt-gen-ui.netlify.app/sitemap.xml
 
 # Host directive helps to specify preferred domain
-Host: promptgen-ui.netlify.app/
+Host: prompt-gen-ui.netlify.app/
