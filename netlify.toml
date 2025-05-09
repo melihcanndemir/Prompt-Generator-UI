@@ -25,13 +25,14 @@
     Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'"
     Permissions-Policy = "camera=(), microphone=(), geolocation=()"
 
-# Custom domain configuration
-[context.production]
-  environment = { NODE_VERSION = "18" }
-
+# Build environment variables
 [build.environment]
   NODE_VERSION = "18"
 
-# Set custom domain for this project
-[context.production.environment]
-  NETLIFY_CUSTOM_DOMAIN = "prompt-generator.melihcandemir.netlify.app" 
+# Production context configuration
+[context.production]
+  # Set custom domain and other production environment variables
+  environment = { 
+    NODE_VERSION = "18",
+    NETLIFY_CUSTOM_DOMAIN = "prompt-generator.melihcandemir.netlify.app" 
+  } 
